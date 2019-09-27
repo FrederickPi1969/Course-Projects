@@ -1,7 +1,16 @@
 # CS 440 MP1: Search
 
-## Implement:
-Write your search algorithms in *search.py* and do not edit any other files, except for testing.
+## Introduction 
+This is an program for searching shortest part for any maze with one or more goals. BFS, DFS, Astar, and related data structures (priority queue, disjoint sets) are implemented. 
+
+#### Example:
+- Single Goal:
+  
+<img src = "bigmaze.jpg">
+<img src = "openmaze.jpg">
+  
+- Multiple Goals:
+<img src = "multi_astar.jpg">
 
 ## Requirements:
 ```
