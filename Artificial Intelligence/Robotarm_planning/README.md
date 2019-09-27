@@ -1,11 +1,39 @@
 # CS 440 MP2: Robotic Arm
 
+
+## Description
+
+This program helps a robot arm to find the shortest path to reach its goal. The arms have granularity, which can be used to transform the motion of n arms into a n-D matrix. With some algorithm, the transformation speed is improved a great deal.
+
+
+####  Examples
+- When there's a single arm:
+<img src="onelink.jpg">
+
+- The two arm links case:  
+  
+    
+<img src="twolinks.jpg">
+
+- And the three arm links case:
+<img src="threelinks.jpg">
+
+
+The transformed 2-D maze looks like this:
+<img src="twoArmMaze.jpg">
+
+
+
+
+
+
+
+
 ## Implement:
 1. geometry.py
 2. transform.py
 3. search.py
-4. maze.py for extra credit only 
-
+4. maze.py 
 ## Requirements:
 ```
 python3
